@@ -39,7 +39,7 @@ function App() {
           <Routes>
             {/* <Route path="/TextUtils" element={<TextForm heading="Enter Your Text" alert={showAlert} mode={mode} />} /> */}
             {/* <Route path="/markdown" element={<Markdown heading="Markdown Editor" alert={showAlert} mode={mode} />} /> */}
-            <Route path="/about" element={<About alert={showAlert} mode={mode} />} />
+            <Route path="/about" element={<About mode={mode} />} />
           </Routes>
         </div>
     </BrowserRouter>
