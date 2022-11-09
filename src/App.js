@@ -9,7 +9,7 @@ import About from './components/About';
 
 function App() {
   const [mode , setMode] = useState("light");
-  const[alert, setAlert] = useState(null);
+  // const[alert, setAlert] = useState(null);
   function showAlert(message,type){
     setAlert({
       message : message,
