@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-// import Markdown from './components/Markdown';
+import Markdown from './components/Markdown';
 import About from './components/About';
 import Alert from './components/Alert';
 
@@ -38,7 +38,7 @@ function App() {
         <div className="container my-5">
           <Routes>
             <Route path="/" element={<Home heading="Enter Your Text" alert={showAlert} mode={mode} />} />
-            {/* <Route path="/markdown" element={<Markdown heading="Markdown Editor" alert={showAlert} mode={mode} />} /> */}
+            <Route path="/markdown" element={<Markdown heading="Markdown Editor" alert={showAlert} mode={mode} />} />
             <Route path="/about" element={<About mode={mode} />} />
           </Routes>
         </div>
